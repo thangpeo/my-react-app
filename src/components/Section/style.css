@@ -1,0 +1,45 @@
+.section{
+    padding: 24px 0;
+}
+.section__title{
+    text-align: center;
+    padding: 8px 44px;
+    text-transform: uppercase;
+}
+.section__body{
+    width: 100%;
+    margin: 4px 0;
+}
+.section__description{
+    padding: 8px 24px;
+    font-size: 0.875rem;
+    color: #777777;
+}
+.section__link{
+    text-decoration: none;
+    text-align: right;
+    color: var(--third);
+    padding: 4px 0;
+    font-size: 1.1rem;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+.section__tabs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.section__tab-item{
+    padding: 4px 12px;
+    text-decoration: none;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.section__tab-item:hover{
+    color: var(--primary);
+}
+.section__tab-item.active{
+    color: var(--primary);
+}

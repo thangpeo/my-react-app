@@ -1,0 +1,9 @@
+.checkbox__label{
+    padding: 4px 8px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.checkbox__input{
+    padding: 4px 8px;
+    margin: 0 8px;
+}

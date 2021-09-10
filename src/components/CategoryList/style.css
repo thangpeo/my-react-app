@@ -1,0 +1,8 @@
+.category__list{
+    display: flex;
+    flex-direction: column;
+}
+.category__title{
+    font-weight: 600;
+    margin-bottom: 4px;
+}

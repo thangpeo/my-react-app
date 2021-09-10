@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
+import Footer from './components/Footer'
+import './assets/boxicons-2.0.7/css/boxicons.min.css'
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './Routes';
+import { ProvideCart } from './components/useCart';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{marginTop: 50 + 'px'}}>
+      <ProvideCart>
+        <BrowserRouter>
+          <Header/>
+          <Routes/>
+          <Footer/>
+        </BrowserRouter>
+      </ProvideCart>
     </div>
+      
   );
 }
 

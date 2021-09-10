@@ -1,0 +1,13 @@
+.banner{
+    width: 100%;
+    display: block;
+    padding: 12px 24px;
+    margin: 24px auto;
+    
+}
+.banner > img{
+    height: 70vh;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}

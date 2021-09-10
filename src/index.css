@@ -11,3 +11,294 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{
+  --primary: #3DB2FF;
+  --secondary: #FFEDDA;
+  --third:#FFB830;
+  --fourth:#FF2442;
+  --white: rgb(255, 253, 253);
+  --black: rgb(22, 22, 22);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container.fluid{
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+} 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -4px;
+  margin-right: -4px;
+  
+}
+.col{
+  flex: 1 1 0px;
+}
+.c-0{
+  display: none;
+}
+.c-1,
+.c-2,
+.c-3,
+.c-4,
+.c-5,
+.c-6,
+.c-7,
+.c-8,
+.c-9,
+.c-10,
+.c-11,
+.c-12{
+  display: block;
+}
+.c-1{
+  flex-basis:  8.33333%;
+  max-width: 8.33333%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.c-2{
+  flex-basis: 16.66666%;
+  max-width: 16.66666%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.c-3{
+  flex-basis: 25%;
+  max-width: 25%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.c-4{
+  flex-basis: 33.33333%;
+  max-width: 33.33333%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.c-5{
+  flex-basis: 41.66666%;
+  max-width: 41.66666%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.c-6{
+  flex-basis: 50%;
+  max-width: 50%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.c-7{
+  flex-basis: 58.33333%;
+  max-width: 58.33333%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.c-8{
+  flex-basis: 66.66666%;
+  max-width: 66.66666%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.c-9{
+  flex-basis: 75%;
+  max-width: 75%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.c-10{
+  flex-basis: 83.33333%;
+  max-width: 83.33333%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.c-11{
+  flex-basis: 91.66666%;
+  max-width: 91.66666%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.c-12{
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+@media (min-width: 576px){
+  .row{
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  .m-0{
+    display: none;
+  }
+  .m-1,
+  .m-2,
+  .m-3,
+  .m-4,
+  .m-5,
+  .m-6,
+  .m-7,
+  .m-8,
+  .m-9,
+  .m-10,
+  .m-11,
+  .m-12{
+    display: block;
+  }
+  .m-1{
+    max-width: 8.33333%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .m-2{
+    max-width: 16.66666%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .m-3{
+    max-width: 25%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .m-4{
+    max-width: 33.33333%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .m-5{
+    max-width: 41.66666%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .m-6{
+    max-width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .m-7{
+    max-width: 58.33333%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .m-8{
+    max-width: 66.66666%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .m-9{
+    max-width: 75%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .m-10{
+    max-width: 83.33333%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .m-11{
+    max-width: 91.66666%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .m-12{
+    max-width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+@media (min-width: 992px) {
+  .row{
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+  .l-0{
+    display: none;
+  } 
+  .l-1,
+  .l-2,
+  .l-3,
+  .l-4,
+  .l-5,
+  .l-6,
+  .l-7,
+  .l-8,
+  .l-9,
+  .l-10,
+  .l-11,
+  .l-12{
+    display: block;
+  }
+  .l-1{
+    max-width: 8.33333%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .l-2{
+    max-width: 16.66666%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .l-3{
+    max-width: 25%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .l-4{
+    max-width: 33.33333%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .l-5{
+    max-width: 41.66666%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .l-6{
+    max-width: 50%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .l-7{
+    max-width: 58.33333%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .l-8{
+    max-width: 66.66666%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .l-9{
+    max-width: 75%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .l-10{
+    max-width: 83.33333%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .l-11{
+    max-width: 91.66666%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .l-12{
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
