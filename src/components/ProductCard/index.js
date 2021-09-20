@@ -4,7 +4,7 @@ import './style.css'
 
 export default function ProductCard({name='',price=0,img,discount = 0,isnew=false, id = 0}) {
     return (
-        <Link to={`/productdetail/${id}`} className="product__card">            
+        <Link to={`/my-react-app/productdetail/${id}`} className="product__card">            
             <span className="product__label">
                 {discount !== 0 && <span className="product__discount">{discount}%</span>}
                 {isnew && <span className="product__new">Mới</span>}
