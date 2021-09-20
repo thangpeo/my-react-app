@@ -68,10 +68,10 @@ export default function Header() {
                         </Col>
                         <Col sm={4} md={4} lg={4}>
                             <div className="header__menu">
-                                <Link className="header__nav__pc__item" to="/cart">
+                                <Link className="header__nav__pc__item" to="/my-react-app/cart">
                                     <i className='bx bx-search-alt bx-sm'></i>
                                 </Link>
-                                <Link  className="header__nav__pc__item" to="/cart">
+                                <Link  className="header__nav__pc__item" to="/my-react-app/cart">
                                     <i className='bx bxs-cart-alt bx-sm'></i>
                                 </Link>
                                 <Link className="header__nav__pc__item" to="/login">
