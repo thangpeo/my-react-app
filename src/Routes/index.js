@@ -9,11 +9,11 @@ import About from '../pages/About'
 export default function Routes() {
     return (
             <Switch>
-                <Route exact path="/" component={HomePage}/>
-                <Route exact path="/about" component={About}/>
-                <Route exact path="/cart" component={CartPage}/>
-                <Route exact path="/products" component={ProductsPage}/>
-                <Route exact path="/productdetail/:id" component={ProductDetailPage}/>
+                <Route exact path="/my-react-app" component={HomePage}/>
+                <Route exact path="/my-react-app/about" component={About}/>
+                <Route exact path="/my-react-app/cart" component={CartPage}/>
+                <Route exact path="/my-react-app/products" component={ProductsPage}/>
+                <Route exact path="/my-react-app/productdetail/:id" component={ProductDetailPage}/>
             </Switch>
     )
 }

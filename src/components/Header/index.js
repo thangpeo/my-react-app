@@ -7,15 +7,15 @@ import { Col, Row } from '../Grid'
 const navItems = [
     {
         display: 'Home',
-        path:'/',
+        path:'/my-react-app',
     },
     {
         display: 'Products',
-        path:'/products',
+        path:'/my-react-app/products',
     },
     {
         display: 'About',
-        path:'/about',
+        path:'/my-react-app/about',
     },
 ]
 

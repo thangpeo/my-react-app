@@ -11,8 +11,8 @@ function App() {
       <ProvideCart>
         <BrowserRouter>
           <Header/>
-          <Routes/>
           <Footer/>
+          <Routes/>
         </BrowserRouter>
       </ProvideCart>
     </div>
